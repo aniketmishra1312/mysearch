@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="icon" href="favicon.ico">
+    <title>Aniket</title>
+
+</head>
+<body>
+    <header>
+        <nav class="head">
+     <ul>
+         <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a> 
+         <a href="https://www.google.co.in/imghp?hl=en&tab=ri&ogbl">Image</a>
+          <a id="sign" href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in</a> 
+     </ul>
+     </nav>
+    </header>
+<div class="search">
+   <a href="" id="google"></a> <img src="IMG_20210314_202302.jpg" alt="">
+    
+</div>
+<br>
+
+<div>
+    <form  id="fsearch"  method="get" >
+<input type="text" id="textsearch" placeholder="" />
+
+
+</div>
+<br>
+<div class="button">
+   <input type="submit" value="Click to Search" class="but" >
+   <input type="submit" value="I'm Feeling Lucky"  class="but">
+
+</div>
+
+</form>
+<script type="text/javascript">
+document.getElementById('fsearch').onsubmit=function()
+{
+    window.location='https://www.google.com/search?q=' + document.getElementById('textsearch').value;
+    return false;
+}
+
+</script>
+<footer>
+    <ul class="left">
+        <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+        <a href="">Advertising</a>
+        <a href="https://www.google.com/intl/en_in/business/">Business</a>
+        <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+    </ul>
+    <ul class="right">
+        <a href="">Privacy</a>
+        <a href="">Term</a>
+        <a href="">Setting</a>
+
+    </ul>
+</footer>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    text-align: right;
+   
+}
+ul a {
+     text-decoration: none;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-right: 20px;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+#sign{
+   background: #4887ef;
+   margin-right: 25px;
+   padding: 7px 15px;
+   border-radius: 3px;
+   font-weight: bold;
+   color:white;
+}
+#sign:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+
+.search{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 110px;
+  
+}
+img{
+    width: 500px;
+}
+form{
+    text-align: center;
+    
+}
+input{
+    width: 450px;
+    line-height: 5px;
+    padding: 10px;
+     
+}
+input:hover{
+ 
+    border-top-color: rgb(80, 77, 77);
+}
+.button{
+    text-align: center;
+   
+}
+.but{
+    width: 150px;
+}
+
+   
+.but:hover{
+    color: white;
+    background-color: teal;
+}
+footer{
+    margin-top: 200px;
+    background-color: rgb(65, 179, 173);
+
+    padding: 7px 10px;
+    border-radius: 3px;     
+}
+
+ .left{
+    float: left;
+}
+.right{
+   
+   float: right;
+}
